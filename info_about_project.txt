@@ -1,0 +1,57 @@
+Project 2: Login Form (No backend)
+
+### 🎯 What to build
+
+A centered login form:
+
+- Email
+    
+- Password
+    
+- Login button
+    
+
+### 🧠 Skills you’ll acquire
+
+- Forms
+    
+- Layout control
+    
+- Input styling
+    
+
+### 🔑 Key concepts
+
+HTML:
+
+- `form`
+    
+- `input` (`text`, `password`)
+    
+- `label`
+    
+- `button`
+    
+
+CSS:
+
+- `display`
+    
+- `width`, `height`
+    
+- `box-sizing`
+    
+- `border-radius`
+    
+- `:focus`
+    
+- `:hover`
+    
+
+🚫 Don’t care about:
+
+- Validation
+    
+- JavaScript
+    
+- Security
