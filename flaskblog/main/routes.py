@@ -20,6 +20,7 @@ def home():
 @main.route('/about',methods=['POST','GET'])
 @login_required 
 def  about():
+
     return render_template('about.html',title="About")
 
 

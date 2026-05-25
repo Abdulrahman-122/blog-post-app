@@ -2,7 +2,8 @@ from itsdangerous import URLSafeTimedSerializer
 from flaskblog import mail
 from flask import url_for,current_app      # we use current_app instead of app to avoid circular import
 from flask_mail import Message  #as you didn't create an object of it inside init
-
+import secrets,os
+from PIL import Image
 def generate_reset_token(user_id):  
     """Generate a token that will be sent to the user email in order to check it's credentials."""
     secret_key=current_app.config['SECRET_KEY']
